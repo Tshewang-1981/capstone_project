@@ -81,7 +81,7 @@ nav ul li a:link,
 .banner-left img {
     width: 100%;
     height: auto;
-    margin: 32px 24px;
+    /* margin: 32px 24px; */
 }
 
 .banner .banner-left {
@@ -123,13 +123,13 @@ nav ul li a:link,
 }
 
 .main-content {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 
 .main-content .content-left {
     width: 60%;
-    margin: 24px;
+    margin: 32px 24px;
 }
 
 .main-content .content-right {
@@ -183,7 +183,7 @@ nav ul li a:link,
 .content-left img {
     width: 100%;
     height: auto;
-    margin: 32px 24px;
+    /* margin: 32px 24px; */
 }
 
 .Orientation-date:hover,
@@ -205,8 +205,8 @@ p {
     color: grey;
     font-weight: lighter;
     line-height: 1.5;
-    font-size: 31px;
-    margin: 16px;
+    font-size: 29px;
+    margin: 24px;
 }
 
 .quote-left .author {
